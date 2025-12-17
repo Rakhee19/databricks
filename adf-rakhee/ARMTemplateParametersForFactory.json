@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-rakhee"
+		},
+		"adf_ls_dataset_accountKey": {
+			"value": ""
+		},
+		"adf_ls_properties_typeProperties_existingClusterId": {
+			"value": "1217-164422-t87exiww"
+		},
+		"adf_ls_dataset_properties_typeProperties_url": {
+			"value": "https://formula1dl1908.dfs.core.windows.net/"
+		},
+		"tr_formula1_properties_pipeline_parameters_p_windows_end_date": {
+			"value": "@trigger().outputs.windowEndTime"
+		}
+	}
+}
