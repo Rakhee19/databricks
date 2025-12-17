@@ -1,0 +1,9 @@
+{
+	"name": "adf-rakhee",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9213c3c2-ab2f-432e-a4d6-cb081e2c1174",
+		"tenantId": "1b0c470f-502b-49be-b5ec-52727bcac388"
+	}
+}
