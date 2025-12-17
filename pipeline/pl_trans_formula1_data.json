@@ -16,20 +16,19 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "adf_ls_formula1dataset",
+						"referenceName": "Json1",
 						"type": "DatasetReference",
 						"parameters": {
-							"p_windows_end_date": {
+							"p_windows_end_time": {
 								"value": "@pipeline().parameters.p_window_end_date",
 								"type": "Expression"
 							}
 						}
 					},
-					"fieldList": [
-						"exists"
-					],
+					"fieldList": [],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
